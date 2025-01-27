@@ -15,6 +15,14 @@ HELP
   You may provide a path to your login file, or by default
   SPID will look for a file named "tokens.txt".
 
+RUNNING
+- You can run the prebuilt JAR file using this command:
+    java -jar spid.jar <token-filepath(optional)>
+- Or you can use the makefile to compile and run the demo:
+    make compile
+    make demo
+  (Note: you can modify the makefile to run with arguments)
+
 DOCUMENTATION
 - The Spotify Playlist Iterator Demo demonstrates the Iterator
   design pattern using playlists is an iterable data structure.
