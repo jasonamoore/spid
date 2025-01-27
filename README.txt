@@ -25,7 +25,7 @@ RUNNING
 
 DOCUMENTATION
 - The Spotify Playlist Iterator Demo demonstrates the Iterator
-  design pattern using playlists is an iterable data structure.
+  design pattern using playlists as an iterable data structure.
 - SPID sends a GET request to retrieve a JSON response with
   playlist data, including a list of tracks in the playlist.
 - The JsonParser class handles decoding the API response and
